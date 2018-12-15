@@ -1,0 +1,40 @@
+.player-page-left{
+    padding: 50px !important;
+    margin-right: -10%;
+}
+h1{
+    font-size: 1.5rem !important;
+}
+h2{
+    font-size: 1.5rem !important;
+}
+h3{
+    font-size: 1rem !important;
+}
+.play-volume-icon{
+    margin: 0 0 0 5%;
+    width: 5%;
+}
+.play-volume{
+    margin-top: 2%; 
+    width: 20%;
+}
+.play-progress{
+    width: 60%;
+}
+.play-cover{
+    border-radius: 50%;
+    animation: rotation 20s linear infinite;
+    box-shadow: 0 0 14px #000000;
+}
+.icon-next{
+    margin-right: 10%;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

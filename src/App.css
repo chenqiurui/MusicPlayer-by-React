@@ -1,0 +1,65 @@
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  margin-bottom: 5px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header-comp{
+  box-sizing: border-box;
+  padding: 15px 25px 1px 25px;
+  border-bottom: 1px solid #dddddd;
+}
+.header-comp h3{
+  display: inline-block;
+}
+
+.progressbar-comp{
+  width: 100%;
+  height: 3px;
+  background: #eeeeee;
+  cursor: pointer;
+}
+.progressbar-comp .progress{
+  height:3px;
+  background: green;
+}
+.musicitem-comp{
+  border-bottom: 1px solid #dddddd;
+}
+.musicitem-comp p:first-child{
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.musicitem-comp p:nth-child(2){
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
+  cursor: pointer;
+}
+.focus{
+  color: green;
+}
