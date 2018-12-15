@@ -1,0 +1,11 @@
+涉及到的包括但不限于React的基础知识点：
+1、使用create-react-app新建项目，使用npm安装依赖包
+2、在React中使用jQuery
+3、使用bootstrap作简要布局设置，
+4、使用fontface字体库，而不是一个个参加svg格式的图片。图标的使用
+5、React组件的使用：组件抽离、组建通信、组件状态state
+6、父子组件传值：props和回调函数
+7、使用Pubsub发布订阅模式，相当于全局广播
+8、路由的使用，引入react-router-dom中的HashBrowser，子组件直接放在render方法中，这样可以传参
+9、less的使用，本项目中因某些原因，未能正确使用less文件，考虑到样式部分代码较少，继续使用的css文件
+10、使用jPlayer插件，获取播放进度、音量、剩余时长等信息，下一步考虑如何使用一些开源音乐库
